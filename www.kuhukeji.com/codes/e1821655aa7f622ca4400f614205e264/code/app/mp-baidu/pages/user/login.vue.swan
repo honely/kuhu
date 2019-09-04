@@ -1,0 +1,1 @@
+<template name="713e9bee"><view class="_view app {{ h[ 0 ].rcl }}"><navigator s-if="{{ h[ 1 ]._if }}" class="_navigator login-view" style="{{ h[ 1 ].st }}" url="phoneLogin" open-type="redirect"><button class="_button btn-login" style="{{ h[ 2 ].st }}">手机号码登录</button></navigator></view></template>

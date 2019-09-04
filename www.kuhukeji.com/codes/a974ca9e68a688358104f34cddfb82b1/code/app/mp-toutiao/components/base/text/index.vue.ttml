@@ -1,0 +1,1 @@
+<template name="c0f5bc24"><view class="_view text-box {{ h[ 0 ].rcl }}" style="{{ h[ 0 ].st }}"><view class="_view text-cont" style="{{ h[ 1 ].st }}"><text class="_text" style="{{ h[ 2 ].st }}">{{ h[ 3 ].t }}</text></view></view></template>

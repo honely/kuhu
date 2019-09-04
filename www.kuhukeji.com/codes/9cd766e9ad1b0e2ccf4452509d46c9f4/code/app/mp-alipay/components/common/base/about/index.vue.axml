@@ -1,0 +1,1 @@
+<template name="c0d9b094"><view class="_view about-box {{ h[ 0 ].rcl }}"><image class="_image" src="{{ h[ 1 ][ 'src' ] }}"></image><view class="_view a-title">{{ h[ 3 ].t }}</view><view class="_view a-content">{{ h[ 5 ].t }}</view><view a:if="{{ h[ 6 ]._if }}" class="_view a-more">查看更多</view></view></template>

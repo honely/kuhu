@@ -1,0 +1,29 @@
+<div class="topNav">
+        <div class="topNav-block">
+            <div class="logo">
+                <a href="/"><img src="<?=$siteinfo['logo']?$siteinfo['logo']:'/static/web/image/logo.png';?>"/></a>
+            </div>
+
+            <div class="topNav-cont">
+                <div class="m-topNav">
+                    <ul class="menu">
+                        <li><a <?=$selectIndex==1 ? 'class="active"' : '';?> href="/">首页</a></li>
+                        <?php $i=0;foreach($apps as $val){ if($val['is_install'] == 1){ $i++; if($i<=2){?>
+                        <li><a href="/<?=$val['app_dir'];?>/"><?=$val['app_name'];?></a></li>
+                        <?php  }}}?>   
+                        <li>
+                            <a href="/web/app/index.html" <?=$selectIndex==2 ? 'class="active"' : '';?>>
+                                   应用中心
+                            </a>
+                            
+                        </li>
+                        <li><a <?=$selectIndex==4 ? 'class="active"' : '';?> href="/web/about/index.html">关于我们</a></li>
+                    </ul>
+                </div>
+                <div class="m-login">
+                    <a class="u-btn register" style="margin-left: 60px" href="/web/passport/register.html">注册</a>
+                    <a class="u-btn login" href="/web/passport/login.html">登录</a>
+                </div>
+            </div>
+        </div>
+    </div>

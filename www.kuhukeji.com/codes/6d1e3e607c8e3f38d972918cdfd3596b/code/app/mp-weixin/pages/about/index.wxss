@@ -1,0 +1,238 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 发展历程 */
+.course-cont {
+	width: 100%;
+	display: inline-block;
+	padding: 12px 10px;
+}
+.course-cont .item-course {
+	width: 100%;
+	display: inline-block;
+	position: relative;
+	padding: 0 5px;
+	margin: 12px 0;
+}
+.course-cont .item-course .c-date {
+	font-size: 42px;
+	position: absolute;
+	left: 0;
+	top: 10px;
+	color: #36509D;
+}
+.course-cont .item-course .c-date text {
+	font-size: 16px;
+	color: #fff;
+	position: absolute;
+	left: 10px;
+	top: 10px;
+}
+.course-cont .item-course .c-cont {
+	background: #F7F9FA;
+	padding: 74px 15px 24px 15px;
+}
+.course-cont .item-course .c-cont .tit {
+	color: #000000;
+	font-size: 20px;
+}
+.course-cont .item-course .c-cont .desc {
+	color: #333333;
+	font-size: 16px;
+	margin-top: 16px;
+}
+.tab-box {
+	width: 100%;
+	height: 50px;
+	background: #fff;
+	-webkit-box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.05);
+	        box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.05);
+	display: -webkit-inline-box;
+	display: -webkit-inline-flex;
+	display: -ms-inline-flexbox;
+	display: inline-flex;
+}
+.tab-box .item-tab {
+	width: 100%;
+	height: 50px;
+	line-height: 50px;
+	-webkit-box-flex: 1;
+	-webkit-flex: 1;
+	    -ms-flex: 1;
+	        flex: 1;
+	text-align: center;
+	font-size: 16px;
+}
+.tab-box .item-tab>text {
+	height: 47px;
+	display: inline-block;
+	border-bottom: 3px #234095 solid;
+}
+.tab-box .item-tab>text.active {
+	color: #234095;
+}
+.tab-box .item-line {
+	width: 1px;
+	height: 30px;
+	margin: 10px 0;
+	background: #CCCCCC;
+}
+.about-box {
+	width: 100%;
+	display: block;
+	background: #fff;
+	padding: 0 15px;
+}
+/* .about-box .thumb-img {
+	width: 100%;
+	height: 230px;
+	background: #fcfcfc;
+	margin: 24px 0;
+} */
+.about-box .banner-box {
+	width: 100%;
+	padding: 24px 0;
+	background: #fff;
+	margin: 3px 0;
+	position: relative;
+}
+.about-box .banner-box swiper {
+	width: 100%;
+	height: 230px;
+}
+.about-box .banner-box swiper swiper-item image {
+	width: 100%;
+	height: 100%;
+}
+.about-box .banner-box .dot-box {
+	height: 24px;
+	line-height: 24px;
+	border-radius: 12px;
+	padding: 0 12px;
+	position: absolute;
+	right: 8px;
+	top: 40px;
+	background: #000;
+	opacity: 0.5;
+	color: #fff;
+}
+.about-box .company-title {
+	color: #333333;
+	font-size: 24px;
+}
+.about-box .company-cont {
+	color: #666666;
+	font-size: 16px;
+	line-height: 26px;
+	margin-top: 12px;
+}
+.about-box .address-cont {
+	width: 100%;
+	margin-top: 28px;
+}
+.about-box .address-cont .item-addr {
+	width: 100%;
+	line-height: 30px;
+	color: #333333;
+	font-size: 16px;
+}
+.about-box .qrcode-img {
+	width: 100%;
+	display: inline-block;
+	text-align: center;
+	padding: 32px 0;
+}
+.about-box .qrcode-img>image {
+	width: 160px;
+	height: 160px;
+	background: #fcfcfc;
+}
+.about-box .map-box {
+	width: 100%;
+	height: 230px;
+	display: inline-block;
+	position: relative;
+	margin-bottom: 17px;
+}
+.about-box .map-box map {
+	width: 100%;
+	height: 100%;
+}
+.about-box .map-box .mask {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background: rgba(0, 0, 0, 0.1);
+}
+

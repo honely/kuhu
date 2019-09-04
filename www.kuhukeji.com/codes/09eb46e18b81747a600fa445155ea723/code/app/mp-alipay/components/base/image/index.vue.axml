@@ -1,0 +1,1 @@
+<template name="8b519b40"><view class="_view assembly-box {{ h[ 0 ].rcl }}" style="{{ h[ 0 ].st }}"><view class="_view" style="width:100%; display:block; {{ h[ 1 ].st }}"><view class="_view" style="{{ h[ 2 ].st }}"><image class="_image img" src="{{ h[ 3 ][ 'src' ] }}" data-cid="{{ _c || c }}" data-hid="{{ 3 }}" onTap="_pe"></image></view></view></view></template>

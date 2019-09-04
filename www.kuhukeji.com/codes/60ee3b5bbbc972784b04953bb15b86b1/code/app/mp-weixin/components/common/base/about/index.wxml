@@ -1,0 +1,1 @@
+<view class="about-box" bind:__l="__l"><image src="{{aData.imgUrl}}"></image><view class="a-title">{{aData.title}}</view><view class="a-content">{{aData.content}}</view><block wx:if="{{aData.isMore==1}}"><view class="a-more">查看更多</view></block></view>

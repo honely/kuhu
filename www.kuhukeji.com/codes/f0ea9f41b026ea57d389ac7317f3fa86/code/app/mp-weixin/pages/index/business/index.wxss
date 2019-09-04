@@ -1,0 +1,29 @@
+
+.business-box {
+	width: 100%;
+	display: inline-block;
+	padding: 15px 12px;
+	background: #fff;
+}
+.business-box .item-business {
+	width: 100%;
+	margin: 12px 0;
+	display: inline-block;
+}
+.business-box .item-business .b-img {
+	width: 100%;
+	height: 230px;
+	background: #fcfcfc;
+}
+.business-box .item-business .b-tit {
+	width: 100%;
+	color: #333333;
+	font-size: 18px;
+	margin: 14px 0;
+}
+.business-box .item-business .b-desc {
+	width: 100%;
+	color: #808080;
+	font-size: 16px;
+}
+

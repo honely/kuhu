@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title><?=$siteinfo['title'];?></title>
+    <meta name="Keywords"  content="<?=$siteinfo['keyword'];?>" />
+    <meta name="Description" content="<?=$siteinfo['desc'];?>" />
+
+    <link type="text/css" rel="stylesheet" href="/static/web/css/common.css"/>
+    <link type="text/css" rel="stylesheet" href="/static/web/css/about.css"/>
+    <script type="text/javascript" src="/static/web/js/jquery.min.js"></script>
+</head>
+<body>
+<section>
+    <{include file="public/menu"}>
+
+    <!--广告位置信息-->
+    <div class="banner-box">
+        <div class="n-wrap">
+            <h1 class="bb-tit">重新定义，引领未来</h1>
+        </div>
+    </div>
+
+    <!--关于我们内容-->
+    <div class="about-box">
+        <div class="n-wrap">
+            <!--公司介绍-->
+            <div class="aboutContBox active" id="tabNav_01_cont">
+                <div class="aboutTit"><?=empty($siteinfo['company'])?'合肥微小宝网络科技有限公司':$siteinfo['company'];?></div>
+                <div class="aboutDesc"><?=empty($siteinfo['about']) ? '' : $siteinfo['about'];?></div>
+                <div class="aboutCompany">
+                    <img src="/static/web/image/img_about01.png">
+                </div>
+                <!--办公环境 730 360 img_company.png-->
+                <div class="envBox"></div>
+
+                <div class="contactBox">
+                    <div class="contactTit">联系方式</div>
+                    <div class="contactCont">
+                        <div class="item-contact">
+                            <img class="ctact-icon" src="/static/web/image/icon_contact01.png">
+                            <p class="tit">客服热线</p>
+                            <p class="desc"><?=empty($siteinfo['tel']) ? '0551-65560407' : $siteinfo['tel'];?></p>
+                        </div>
+                        <div class="item-contact">
+                            <img class="ctact-icon" src="/static/web/image/icon_contact02.png">
+                            <p class="tit">技术支持邮箱</p>
+                            <p class="desc"><?=empty($siteinfo['email']) ? 'youge@baototo.com' : $siteinfo['email'];?></p>
+
+                        </div>
+                        <div class="item-contact">
+                            <img class="ctact-icon" src="/static/web/image/icon_contact03.png">
+                            <p class="tit">客服QQ</p>
+                            <p class="desc"> <?=empty($siteinfo['qq']) ? '2016030471' : $siteinfo['qq'];?></p>
+
+                        </div>
+                        <div class="item-contact">
+                            <img class="ctact-icon" src="/static/web/image/icon_contact04.png">
+                            <p class="tit">客服微信</p>
+                            <p class="desc"> <?=empty($siteinfo['weixin']) ? '18096404936' : $siteinfo['weixin'];?></p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="addressBox">
+                    <div class="addr-img">
+                        <img src="<?=empty($siteinfo['map']) ? $siteinfo['map'] : '/static/web/image/map.png';?>">
+                    </div>
+
+                    <div class="addr-desc">
+                        <div class="item">地址：<?=$siteinfo['addr'];?></div>
+                        <div class="item">邮编：<?=$siteinfo['postcode'];?></div>
+                        <div class="qr-cont">
+                            <img class="qr-img" src="<?=empty($siteinfo['qrcode']) ? $siteinfo['qrcode'] : '/static/web/image/ma_footer.png';?>">
+                            <p>关注微信公众号</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <{include file="public/footer"}>
+</section>
+
+
+
+</body>
+</html>

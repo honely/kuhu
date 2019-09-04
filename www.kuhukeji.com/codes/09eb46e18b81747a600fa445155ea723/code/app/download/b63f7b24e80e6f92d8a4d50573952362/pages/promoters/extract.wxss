@@ -1,0 +1,156 @@
+
+.extract-box {
+	width: 100%;
+	display: block;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	overflow-y: scroll;
+}
+.extract-box .base-info {
+	width: 92%;
+	height: 260px;
+	margin: 15px 4% 0 4%;
+	background: #fff;
+	border-radius: 8px;
+	position: relative;
+}
+.extract-box .base-info .item-info {
+	height: auto;
+	display: block;
+	text-align: center;
+	position: absolute;
+}
+.base-info .item-info .item-hint {
+	color: #aaafb3;
+	font-size: 14px;
+}
+.base-info .item-info .item-value {
+	color: #2d3133;
+	font-size: 20px;
+	margin-top: 6px;
+}
+.extract-box .base-info .extract-cont {
+	width: 100%;
+	height: 135px;
+	/* background: #fcfcfc; */
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
+	text-align: center;
+	position: absolute;
+	top: 63px;
+}
+.base-info .extract-cont .rate-cont {
+	width: 100%;
+	height: auto;
+	display: block;
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 40px;
+}
+.rate-cont .e-num {
+	width: 100%;
+	text-align: center;
+	color: #00B5DE;
+	font-size: 50rpx;
+}
+.rate-cont .e-hint {
+	width: 100%;
+	text-align: center;
+	color: #797D80;
+	font-size: 16px;
+	margin-top: 8px;
+}
+.score-info {
+	width: 100%;
+	height: auto;
+	margin: 21px auto;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
+	font-size: 18px;
+	color: #aaafb3;
+}
+.extract-way {
+	width: 92%;
+	height: auto;
+	margin: 0 4%;
+	background: #fff;
+	border-radius: 8px;
+	padding: 0 15px;
+}
+.extract-way .e-header {
+	width: 100%;
+	height: 50px;
+	line-height: 50px;
+	border-bottom: 1px #dfe6eb solid;
+	color: #2d3133;
+	font-size: 15px;
+	font-weight: bold;
+}
+.extract-way .way-cont {
+	width: 100%;
+	height: auto;
+	display: block;
+	padding: 8px 0;
+}
+.extract-way .item-way {
+	width: 100%;
+	height: 50px;
+	line-break: 50px;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+}
+.extract-way .item-way .w-lt {
+	height: 50px;
+	-webkit-box-flex: 1;
+	-webkit-flex: 1;
+	    -ms-flex: 1;
+	        flex: 1;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+	font-size: 16px;
+	color: #2d3133;
+}
+.extract-way .item-way .w-lt .icon-way {
+	width: 36px;
+	height: 36px;
+	margin-right: 10px;
+}
+.extract-way .item-way .btn-invite {
+	width: 80px;
+	height: 32px;
+	line-height: 32px;
+	border-radius: 16px;
+	text-align: center;
+	font-size: 15px;
+	color: #fff;
+	background: -webkit-linear-gradient(left, #ffae19, #ff8000);
+	-webkit-box-shadow: 0 4px 4px 0 rgba(255, 174, 25, 0.3);
+	        box-shadow: 0 4px 4px 0 rgba(255, 174, 25, 0.3);
+}
+

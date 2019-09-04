@@ -1,0 +1,2 @@
+<import src="./phoneLogin.vue.swan" />
+    <template is="bb1e500a" data="{{{ ...$root['0'], $root }}}"/>

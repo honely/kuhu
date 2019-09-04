@@ -1,0 +1,22 @@
+
+.rich-cont {
+	width: 100%;
+	background: #fff;
+	display: block;
+}
+.rich-cont .rich-text {
+	width: 100%;
+	display: inline-block;
+}
+.rich-cont .rich-img {
+	width: 100%;
+	display: -webkit-inline-box;
+	display: -webkit-inline-flex;
+	display: -ms-inline-flexbox;
+	display: inline-flex;
+	/* display: inline-block; */
+}
+.rich-cont .rich-img .img {
+	display: inline-block;
+}
+

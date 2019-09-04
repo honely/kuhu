@@ -1,0 +1,25 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/product/index",
+    "pages/product/detail",
+    "pages/about/index",
+    "pages/message/index",
+    "pages/plugin/page",
+    "pages/index/business/index",
+    "pages/index/business/detail",
+    "pages/index/case/index",
+    "pages/index/case/detail",
+    "pages/index/news/index",
+    "pages/index/news/detail",
+    "pages/index/recruit/index",
+    "pages/plugin/index",
+    "pages/plugin/list",
+    "common/base"
+  ],
+  "window": {
+    "defaultTitle": "智慧小程序",
+    "titleBarColor": "#ffffff",
+    "backgroundColor": "#F8F8F8"
+  }
+}

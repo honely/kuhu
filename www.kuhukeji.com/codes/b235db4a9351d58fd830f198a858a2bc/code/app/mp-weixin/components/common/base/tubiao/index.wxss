@@ -1,0 +1,24 @@
+
+.icon-box {
+	width: 100%;
+	display: block;
+	overflow: hidden;
+	padding-bottom: 10px;
+}
+.icon-box .item-icon {
+	float: left;
+	text-align: center;
+	padding-top: 8px;
+}
+.icon-box .item-icon .icon {
+	width: 40px;
+	height: 40px;
+}
+.icon-box .item-icon .name {
+	height: 30px;
+	font-weight: 100;
+	font-size: 14px;
+	color: rgb(51, 51, 51);
+	line-height: 30px;
+}
+

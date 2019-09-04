@@ -1,0 +1,2 @@
+<import src="./coupon.vue.ttml" />
+    <template is="1b1c1600" data="{{ ...$root['0'], $root }}"/>

@@ -1,0 +1,1 @@
+(my["webpackJsonp"]=my["webpackJsonp"]||[]).push([["common/base"],{"0c56":function(e,n,o){"use strict";o("6346");var u=m(o("9751")),a=m(o("3a53"));function m(e){return e&&e.__esModule?e:{default:e}}u.default.mpType="page";var t=new a.default(u.default);t.$mount()}},[["0c56","common/runtime","common/vendor"]]]);

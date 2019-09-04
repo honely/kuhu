@@ -1,0 +1,301 @@
+
+.assemble-main {
+	width: 100%;
+	display: block;
+}
+.assemble-main .assemble-info {
+	width: 100%;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	padding: 15px;
+	background: #fff;
+}
+.assemble-main .assemble-info .ass-lt {
+	width: 120px;
+	height: 120px;
+	float: left;
+	position: relative;
+}
+.assemble-main .assemble-info .ass-lt .thumb-img {
+	width: 100%;
+	/* background: #f00; */
+	height: 100%;
+}
+.v-price{
+	width: 100%;
+	height: 30px;
+	line-height: 30px;
+	position: absolute;
+	bottom: 0;
+	text-align: center;
+	/* background: rgba(0,0,0,0.5); */
+	color: #fff;
+	background: -webkit-gradient(linear,left top, right top,from(rgba(255,164,75,1)),to(rgba(251,74,134,1)));
+	background: -o-linear-gradient(left,rgba(255,164,75,1) 0%,rgba(251,74,134,1) 100%);
+	background: linear-gradient(90deg,rgba(255,164,75,1) 0%,rgba(251,74,134,1) 100%);
+	opacity:0.9;
+}
+.asl-state {
+	height: 20px;
+	line-height: 20px;
+	padding: 0 8px 0 6px;
+	border-bottom-right-radius: 10px;
+	background: #FF8C00;
+	color: #fff;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	position: absolute;
+	left: 0;
+	top: 0;
+	font-size: 12px;
+}
+.assemble-main .assemble-info .ass-rt {
+	width: 100%;
+	-webkit-box-flex: 1;
+	-webkit-flex: 1;
+	    -ms-flex: 1;
+	        flex: 1;
+	margin-left: 10px;
+}
+.assemble-main .assemble-info .ass-rt .assr-name {
+	width: 100%;
+	color: #2D3133;
+	font-size: 16px;
+}
+.assemble-main .assemble-info .ass-rt .assr-num {
+	width: 100%;
+	color: #999999;
+	font-size: 14px;
+	margin-top: 9px;
+}
+.assemble-main .assemble-info .ass-rt .pt-price {
+	width: 100%;
+	margin-top: 7px;
+	color: #ED3005;
+	font-size: 14px;
+}
+.assemble-main .assemble-info .ass-rt .buy-price {
+	color: #999999;
+	font-size: 14px;
+	margin-top: 2px;
+}
+.assemble-main .assemble-desc {
+	width: 100%;
+	padding: 0 15px;
+	display: block;
+	background: #fff;
+}
+.assemble-main .assemble-desc .desc-cont {
+	width: 100%;
+	padding: 24px 0;
+	border-top: 1px solid #CCCCCC;
+	text-align: center;
+	display: block;
+}
+.assemble-desc .desc-cont .btn-join {
+	width: 100%;
+	height: 48px;
+	line-height: 48px;
+	background: #ED3005;
+	border-radius: 4px;
+	font-size: 18px;
+	color: #FFFFFF;
+	margin-top: 15px;
+}
+.assemble-desc .desc-cont .group-name {
+	width: 100%;
+	text-align: center;
+	color: #333333;
+	font-size: 14px;
+}
+.assemble-desc .desc-cont .group-time {
+	width: 100%;
+	margin-top: 13px;
+	text-align: center;
+	color: #333333;
+	font-size: 16px;
+}
+.assemble-desc .desc-cont .group-member {
+	display: inline-block;
+	padding: 25px 10px 5px 10px;
+}
+.assemble-desc .desc-cont .group-member .item-member {
+	width: 50px;
+	height: 50px;
+	border-radius: 25px;
+	position: relative;
+	float: left;
+	margin: 5px;
+	background: #fcfcfc;
+	border: 1px dotted #CCCCCC;
+}
+.item-member .m-state {
+	width: 40px;
+	height: 20px;
+	line-height: 20px;
+	border-radius: 10px;
+	color: #FFFFFF;
+	font-size: 12px;
+	text-align: center;
+	background: #FF8C00;
+	position: absolute;
+	bottom: 0;
+	left: 5px;
+}
+.item-member image {
+	width: 100%;
+	height: 100%;
+	background: #fff;
+	border-radius: 50%;
+}
+
+/* 拼团步骤 */
+.pintuan-step {
+	width: 100%;
+	display: inline-block;
+	padding: 15px 14px 23px 14px;
+	background: #fff;
+}
+.pintuan-step .item-step {
+	width: 84px;
+	display: block;
+	text-align: center;
+	-webkit-box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.08);
+	        box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.08);
+	border-radius: 4px;
+	float: left;
+	margin: 1px;
+}
+.pintuan-step .item-step .s-name {
+	width: 100%;
+	padding: 12px 14px;
+	font-size: 14px;
+	color: #000;
+}
+.pintuan-step .item-step .s-btom {
+	position: relative;
+	height: 32px;
+	background: #000000;
+	opacity: 0.4;
+	border-radius: 0 0 4px 4px;
+	text-align: center;
+}
+.pintuan-step .item-step .s-btom .sb-num {
+	width: 100%;
+	line-height: 32px;
+	color: #fff;
+	font-size: 16px;
+	text-align: center;
+}
+.pintuan-step .item-step .s-btom .sb-arrow {
+	width: 0;
+	height: 0;
+	border-width: 5px;
+	border-style: solid;
+	border-color: #fff transparent transparent transparent;
+	position: absolute;
+	top: 0;
+	left: 37px;
+}
+
+/* 推荐拼团列表 */
+.spell-list {
+	width: 100%;
+	display: inline-block;
+	background: #f8f8f8;
+}
+.spell-list .spell-tit {
+	width: 100%;
+	height: 50px;
+	padding: 0 15px;
+	background: #fff;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+	color: #000000;
+	font-size: 20px;
+}
+.spell-list .item-spell {
+	width: 100%;
+	margin-top: 3px;
+	background: #fff;
+	display: -webkit-inline-box;
+	display: -webkit-inline-flex;
+	display: -ms-inline-flexbox;
+	display: inline-flex;
+	padding: 15px;
+}
+.spell-list .item-spell .spell-img {
+	width: 120px;
+	height: 120px;
+	position: relative;
+}
+.spell-list .item-spell .spell-img .thumb-img {
+	width: 100%;
+	height: 100%;
+	background: #fcfcfc;
+}
+.spell-list .item-spell .spell-cont {
+	width: 100%;
+	-webkit-box-flex: 1;
+	-webkit-flex: 1;
+	    -ms-flex: 1;
+	        flex: 1;
+	margin-left: 10px;
+	display: block;
+}
+.spell-list .item-spell .spell-cont .s-name {
+	width: 100%;
+	color: #2D3133;
+	font-size: 16px;
+}
+.spell-list .item-spell .spell-cont .s-num {
+	width: 100%;
+	font-size: 14px;
+	color: #999999;
+	margin-top: 8px;
+}
+.spell-list .item-spell .spell-cont .s-desc {
+	width: 100%;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	position: relative;
+	margin-top: 8px;
+}
+.spell-cont .s-desc .sd-price {
+	width: 100%;
+	-webkit-box-flex: 1;
+	-webkit-flex: 1;
+	    -ms-flex: 1;
+	        flex: 1;
+}
+.spell-cont .s-desc .sd-price .tuan-price {
+	color: #ED3005;
+	font-size: 14px;
+}
+.spell-cont .s-desc .sd-price .buy-price {
+	color: #999999;
+	font-size: 14px;
+}
+.spell-cont .s-desc .sd-btn {
+	height: 32px;
+	line-height: 32px;
+	padding: 0 16px;
+	color: #fff;
+	font-size: 16px;
+	margin-top: 9px;
+	background: #ED3005;
+	border-radius: 2px;
+}
+

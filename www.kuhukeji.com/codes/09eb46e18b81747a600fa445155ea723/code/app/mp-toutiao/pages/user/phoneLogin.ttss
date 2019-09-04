@@ -1,0 +1,133 @@
+
+.tab-cont {
+	width: 100%;
+	height: 50px;
+	background: #fff;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+}
+.tab-cont .item-tab {
+	width: 100%;
+	height: 50px;
+	-webkit-box-flex: 1;
+	-webkit-flex: 1;
+	    -ms-flex: 1;
+	        flex: 1;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
+}
+.tab-cont .item-tab .it-tit-normal {
+	height: 46px;
+	line-height: 46px;
+	color: #333333;
+	font-size: 16px;
+	border-bottom: 4px solid #fff;
+}
+.tab-cont .item-tab .it-tit-select {
+	height: 46px;
+	line-height: 46px;
+	color: #ED3005;
+	font-size: 20px;
+	border-bottom: 4px solid #ED3005;
+}
+.app .login-cont {
+	width: 100%;
+	display: block;
+	padding: 0 15px;
+	margin-top: 16px;
+	background: #fff;
+}
+.app .login-cont .item-input {
+	width: 100%;
+	height: 60px;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	border-bottom: 1px solid #CCCCCC;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+}
+.item-input .ii-tit {
+	width: 78px;
+	height: 60px;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+	color: #666666;
+	font-size: 16px;
+}
+.item-input .ii-input {
+	width: 100%;
+	height: 100%;
+	-webkit-box-flex: 1;
+	-webkit-flex: 1;
+	    -ms-flex: 1;
+	        flex: 1;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+	font-size: 16px;
+	color: #000;
+}
+.item-input .get-code {
+	height: 30px;
+	margin: 15px 0;
+	padding-left: 15px;
+	border-left: 1px solid #CCCCCC;
+	color: #ED3005;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+	font-size: 16px;
+}
+.btn-login {
+	width: 92%;
+	height: 48px;
+	margin: 24px 4%;
+	background: #CCCCCC;
+	color: #fff;
+	font-size: 18px;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
+}
+

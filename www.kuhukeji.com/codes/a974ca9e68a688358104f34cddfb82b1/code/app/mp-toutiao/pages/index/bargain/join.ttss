@@ -1,0 +1,862 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 帮砍对话框 */
+.dialog-help-box {
+	width: 96%;
+	height: 280px;
+	margin: 180px 2% 0 2%;
+	position: relative;
+}
+.dialog-help-box .hkan-cont {
+	width: 94%;
+	height: 100%;
+	margin: 0 3%;
+	position: relative;
+}
+.hkan-cont .face-box {
+	width: 100%;
+	height: 64px;
+	text-align: center;
+	position: absolute;
+	z-index: 102;
+}
+.hkan-cont .face-box .f-img {
+	width: 60px;
+	height: 60px;
+	border-radius: 50%;
+	border: 2px solid #fff;
+	/* background: #f00; */
+}
+.hkan-cont .cont {
+	position: absolute;
+	top: 30px;
+	bottom: 30px;
+	left: 10px;
+	right: 10px;
+	background: #fff;
+	z-index: 101;
+	border-radius: 8px;
+	color: #000;
+}
+.hkan-cont .cont .c-tit {
+	width: 100%;
+	text-align: center;
+	margin-top: 48px;
+	color: #333333;
+	font-size: 28px;
+}
+.hkan-cont .cont .c-desc {
+	width: 100%;
+	margin-top: 16px;
+	text-align: center;
+	font-size: 14px;
+	color: #333333;
+}
+.hkan-cont .cont .btn-take {
+	width: 92%;
+	height: 48px;
+	background: rgba(255, 229, 0, 1);
+	-webkit-box-shadow: 0px 4px 0px 0px rgba(255, 140, 0, 1);
+	        box-shadow: 0px 4px 0px 0px rgba(255, 140, 0, 1);
+	border-radius: 4px;
+	margin: 24px 4% 0 4%;
+	color: #ED3005;
+	font-size: 18px;
+}
+.dialog-help-box .img-close {
+	width: 44px;
+	height: 44px;
+	position: absolute;
+	right: 2px;
+	top: 8px;
+	z-index: 103;
+}
+/* 自己砍价对话框 */
+.dialog-kan-box {
+	width: 100%;
+	height: 264px;
+	padding: 22px 11px;
+	position: relative;
+	margin-top: 180px;
+}
+.dialog-kan-box .dkan-cont {
+	width: 92%;
+	height: 220px;
+	margin: 0 4%;
+	background: #fff;
+	position: relative;
+	border-radius: 8px;
+}
+.dialog-kan-box .dkan-cont .dc-img {
+	width: 100%;
+	height: 160px;
+	position: relative;
+}
+.dialog-kan-box .dkan-cont .dc-img .img {
+	width: 100%;
+	height: 100%;
+	border-radius: 8px 8px 0 0;
+	position: absolute;
+	z-index: 100;
+}
+.dialog-kan-box .dkan-cont .dc-img .info {
+	width: 100%;
+	height: 140px;
+	position: absolute;
+	top: 0;
+	z-index: 101;
+	color: #fff;
+	padding: 24px 20px 0 20px;
+}
+.dc-img .info .tit {
+	font-size: 28px;
+	color: #fff;
+}
+.dc-img .info .desc {
+	color: #fff;
+	font-size: 14px;
+	margin-top: 16px;
+}
+.dialog-kan-box .btn-share {
+	width: 80%;
+	height: 48px;
+	background: rgba(255, 229, 0, 1);
+	-webkit-box-shadow: 0px 4px 0px 0px rgba(255, 140, 0, 1);
+	        box-shadow: 0px 4px 0px 0px rgba(255, 140, 0, 1);
+	border-radius: 4px;
+	position: absolute;
+	bottom: 52px;
+	left: 10%;
+	color: #ED3005;
+	font-size: 18px;
+	z-index: 101;
+}
+.dialog-kan-box .img-close {
+	width: 44px;
+	height: 44px;
+	position: absolute;
+	right: 10px;
+	top: 0px;
+	z-index: 101;
+}
+.banner-box {
+	width: 100%;
+	display: block;
+}
+.bargain-box .bargain-cont {
+	width: 100%;
+	padding: 15px;
+	background: #C02E27;
+}
+.bargain-box .bargain-cont .b-cont {
+	width: 100%;
+	background: #FFFFFF;
+	border-radius: 8px;
+	padding: 10px;
+}
+.b-cont .bc-user {
+	width: 100%;
+	height: 48px;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+}
+.b-cont .bc-user .u-face {
+	width: 48px;
+	height: 48px;
+	border-radius: 24px;
+	/* background: #f00; */
+}
+.b-cont .bc-user .u-info {
+	width: 100%;
+	-webkit-box-flex: 1;
+	-webkit-flex: 1;
+	    -ms-flex: 1;
+	        flex: 1;
+	display: block;
+	padding-left: 10px;
+}
+.u-info .uname {
+	color: #666666;
+	font-size: 14px;
+}
+.u-info .uhint {
+	color: #333333;
+	font-size: 16px;
+	margin-top: 3px;
+}
+.b-cont .bc-goods {
+	width: 100%;
+	height: 150px;
+	border-radius: 4px;
+	padding: 15px;
+	background: #F2F4F7;
+	margin-top: 12px;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+}
+.bc-goods .g-img {
+	width: 120px;
+	height: 120px;
+	/* background: #f00; */
+}
+.bc-goods .g-cont {
+	width: 100%;
+	height: 100%;
+	-webkit-box-flex: 1;
+	-webkit-flex: 1;
+	    -ms-flex: 1;
+	        flex: 1;
+	display: block;
+	padding-left: 10px;
+}
+.bc-goods .g-cont .cname {
+	width: 100%;
+	color: #2D3133;
+	font-size: 15px;
+}
+.bc-goods .g-cont .cnum {
+	width: 100%;
+	color: #999999;
+	margin: 16px 0;
+	font-size: 14px;
+}
+.bc-goods .g-cont .cprice {
+	width: 100%;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	font-size: 14px;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+	color: #999999;
+}
+/* 倒计时 */
+.b-cont .countDown-cont {
+	width: 100%;
+	text-align: center;
+	margin: 20px 0;
+}
+.b-cont .countDown-cont .hint {
+	color: #ED3005;
+	font-size: 14px;
+	margin: 0 10px;
+}
+/* 砍价进度 */
+.b-progress {
+	width: 100%;
+	display: block;
+	padding: 0 20px;
+}
+.b-progress .p-data {
+	width: 100%;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+}
+.b-progress .p-data .pd-lt {
+	width: 100%;
+	-webkit-box-flex: 1;
+	-webkit-flex: 1;
+	    -ms-flex: 1;
+	        flex: 1;
+	text-align: left;
+	font-size: 14px;
+	color: #666666;
+}
+.b-progress .p-data .pd-rt {
+	width: 100%;
+	-webkit-box-flex: 1;
+	-webkit-flex: 1;
+	    -ms-flex: 1;
+	        flex: 1;
+	text-align: right;
+	font-size: 14px;
+	color: #666666;
+}
+.b-progress .p-progress {
+	width: 100%;
+	margin: 8px 0;
+}
+/* 砍一刀 */
+.b-button {
+	width: 100%;
+	padding: 0 5px;
+	display: block;
+	margin: 20px 0 6px 0;
+}
+.b-button .btn-kan {
+	width: 100%;
+	height: 48px;
+	background: rgba(255, 229, 0, 1);
+	-webkit-box-shadow: 0px 4px 0px 0px rgba(255, 140, 0, 1);
+	        box-shadow: 0px 4px 0px 0px rgba(255, 140, 0, 1);
+	border-radius: 4px;
+	color: #ED3005;
+	font-size: 18px;
+}
+.b-record {
+	width: 100%;
+	padding: 0 5px;
+	display: block;
+	margin: 20px 0 6px 0;
+}
+.b-record .record-cont {
+	width: 100%;
+	height: 166px;
+	background: rgba(255, 201, 0, 0.1);
+	border-radius: 4px;
+	/* opacity: 0.1; */
+}
+.b-record .record-cont .rc-tit {
+	width: 100%;
+	color: #000000;
+	display: -webkit-inline-box;
+	display: -webkit-inline-flex;
+	display: -ms-inline-flexbox;
+	display: inline-flex;
+	font-size: 18px;
+	text-align: center;
+	margin: 16px 0 5px 0;
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
+}
+.b-record .record-cont .rc-list {
+	width: 100%;
+	height: 116px;
+	overflow: scroll;
+}
+.rc-list .item-record {
+	width: 100%;
+	height: 44px;
+	display: -webkit-inline-box;
+	display: -webkit-inline-flex;
+	display: -ms-inline-flexbox;
+	display: inline-flex;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+	margin: 8px 0;
+	padding: 0 15px;
+}
+.item-record .r-img {
+	width: 44px;
+	height: 44px;
+	border-radius: 22px;
+	/* background: #f00; */
+}
+.item-record .r-cont {
+	width: 100%;
+	-webkit-box-flex: 1;
+	-webkit-flex: 1;
+	    -ms-flex: 1;
+	        flex: 1;
+	display: block;
+	padding-left: 8px;
+}
+.item-record .r-cont .rc-name {
+	font-size: 14px;
+	color: #666666;
+}
+.item-record .r-cont .rc-hint {
+	font-size: 12px;
+	color: #666666;
+	margin-top: 4px;
+}
+.item-record .r-time {
+	color: #333333;
+	font-size: 14px;
+}
+/* 推荐商品 */
+.recommend-list {
+	width: 100%;
+	display: block;
+	margin-top: 13px;
+}
+.recommend-list .r-header {
+	width: 100%;
+	height: 50px;
+	line-height: 50px;
+	background: #fff;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	padding: 0 15px;
+	color: #000;
+	font-size: 20px;
+}
+.recommend-list .r-list {
+	width: 100%;
+	margin-top: 2px;
+	display: block;
+	background: #fff;
+}
+.r-list .item-bargain {
+	width: 100%;
+	padding: 15px;
+	display: -webkit-inline-box;
+	display: -webkit-inline-flex;
+	display: -ms-inline-flexbox;
+	display: inline-flex;
+	background: #fff;
+	border-bottom: 2px solid #f8f8f8;
+}
+.item-bargain .lt-bargain {
+	width: 120px;
+	height: 120px;
+	position: relative;
+}
+.lt-bargain .hint {
+	width: 100%;
+	height: 24px;
+	line-height: 24px;
+	background: -webkit-gradient(linear, left top, right top, from(rgba(255, 164, 75, 1)), to(rgba(251, 74, 134, 1)));
+	background: -o-linear-gradient(left, rgba(255, 164, 75, 1) 0%, rgba(251, 74, 134, 1) 100%);
+	background: linear-gradient(90deg, rgba(255, 164, 75, 1) 0%, rgba(251, 74, 134, 1) 100%);
+	opacity: 0.9;
+	position: absolute;
+	bottom: 0;
+	text-align: center;
+	color: #fff;
+	font-size: 14px;
+}
+.lt-bargain image {
+	width: 100%;
+	height: 100%;
+	/* background: #f00; */
+}
+.lt-desc .price {
+	color: #ED3005;
+}
+.lt-desc .cost-price {
+	color: #999999;
+	font-size: 14px;
+}
+.item-bargain .rt-bargain {
+	width: 100%;
+	-webkit-box-flex: 1;
+	-webkit-flex: 1;
+	    -ms-flex: 1;
+	        flex: 1;
+	display: block;
+	margin-left: 10px;
+}
+.item-bargain .rt-bargain .b-name {
+	width: 100%;
+	font-size: 16px;
+	color: #2D3133;
+}
+.item-bargain .rt-bargain .b-sellNum {
+	width: 100%;
+	color: #999999;
+	font-size: 14px;
+	margin-top: 8px;
+}
+.item-bargain .rt-bargain .b-desc {
+	width: 100%;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	margin-top: 8px;
+	position: relative;
+}
+.item-bargain .rt-bargain .b-desc .lt-desc {
+	width: 100%;
+	-webkit-box-flex: 1;
+	-webkit-flex: 1;
+	    -ms-flex: 1;
+	        flex: 1;
+}
+.item-bargain .rt-bargain .b-desc .rt-desc {
+	height: 32px;
+	line-height: 32px;
+	padding: 0 19px;
+	background: #ED3005;
+	font-size: 16px;
+	color: #fff;
+	position: absolute;
+	right: 0;
+	bottom: 0;
+}
+

@@ -1,0 +1,759 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 新增地址Start */
+.edit-address {
+	position: absolute;
+	background: #F2F4F7;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	animation: bounceInUp 1s ease 0s 1 both;
+	-webkit-animation: bounceInUp 1s ease 0s 1 both;
+}
+.edit-address .e-tit {
+	width: 100%;
+	height: 54px;
+	padding: 0 15px;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+	color: #333333;
+	font-size: 18px;
+	background: #fff;
+}
+.edit-address .e-cont {
+	width: 100%;
+	margin-top: 12px;
+	display: block;
+	padding: 0 15px;
+	background: #fff;
+}
+.edit-address .e-cont .item-edit {
+	width: 100%;
+	height: 50px;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+	border-bottom: 1px solid #E6E6E6;
+}
+.item-edit .ie-tit {
+	width: 86px;
+	height: 50px;
+	line-height: 50px;
+	color: #666666;
+	font-size: 16px;
+}
+.item-edit .ie-input {
+	width: 100%;
+	height: 50px;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+	-webkit-box-flex: 1;
+	-webkit-flex: 1;
+	    -ms-flex: 1;
+	        flex: 1;
+	font-size: 16px;
+	color: #333333;
+}
+.edit-address .default-cont {
+	width: 100%;
+	height: 69px;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+	padding: 0 15px;
+}
+.edit-address .default-cont .icon-radio {
+	width: 21px;
+	height: 21px;
+	font-size: 21px;
+	color: #999999;
+}
+.edit-address .btn-save {
+	width: 92%;
+	height: 48px;
+	margin: 32px 4%;
+	background: #ED3005;
+	color: #fff;
+	font-size: 18px;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
+}
+/* 新增地址 End */
+.btn-add-address {
+	width: 92%;
+	height: 50px;
+	margin: 20px 4% 14px 4%;
+	border-radius: 4px;
+	background: #FFFFFF;
+	-webkit-box-shadow: 0 2px 6px 0 rgba(242, 242, 242, 1);
+	        box-shadow: 0 2px 6px 0 rgba(242, 242, 242, 1);
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
+}
+.btn-add-address .add-icon {
+	color: #ED3005;
+	font-size: 24px;
+}
+.btn-add-address .add-hint {
+	color: #ED3005;
+	font-size: 18px;
+	margin-left: 10px;
+}
+.address-list {
+	width: 100%;
+	display: inline-block;
+}
+.address-list .item-address {
+	width: 92%;
+	margin: 6px 4%;
+	display: -webkit-inline-box;
+	display: -webkit-inline-flex;
+	display: -ms-inline-flexbox;
+	display: inline-flex;
+	background: #fff;
+	border-radius: 8px;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+}
+.address-list .item-address .lt-addr {
+	width: 100%;
+	-webkit-box-flex: 1;
+	-webkit-flex: 1;
+	    -ms-flex: 1;
+	        flex: 1;
+	display: inline-block;
+	padding: 20px 2px 20px 15px;
+}
+.lt-addr .u-info {
+	color: #333333;
+	font-size: 16px;
+}
+.lt-addr .u-info .state {
+	background: #FF8C00;
+	font-size: 12px;
+	color: #fff;
+	padding: 3px;
+	margin-left: 5px;
+	border-radius: 3px;
+}
+.lt-addr .u-addr {
+	color: #999999;
+	font-size: 14px;
+	margin-top: 10px;
+}
+.address-list .item-address .rt-addr {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+}
+.address-list .item-address .rt-addr text {
+	margin: 0 18px;
+	font-size: 25px;
+	color: #AAAFB3;
+}
+/* 地址弹窗 */
+.time-listBox {
+	width: 100%;
+	height: auto;
+	display: block;
+	position: fixed;
+	bottom: 0;
+	background: #fff;
+	padding: 0 16px;
+	z-index: 999;
+	animation: action_translateY 1s ease 0s 1 both;
+	-webkit-animation: action_translateY 1s ease 0s 1 both;
+}
+.time-listBox .item-time {
+	width: 100%;
+	height: 100rpx;
+	border-bottom: 1px solid #f2f4f5;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+}
+.time-listBox .item-time .name {
+	width: 100%;
+	-webkit-box-flex: 1;
+	-webkit-flex: 1;
+	    -ms-flex: 1;
+	        flex: 1;
+	color: #2d3133;
+	font-size: 16px;
+}
+.time-listBox .item-time .arrow {
+	width: 24px;
+	height: 18px;
+}
+.time-listBox .item-time .date-cancel {
+	height: 50px;
+	line-height: 50px;
+	color: #5a6266;
+	font-size: 16px;
+}
+.time-listBox .item-time .date-title {
+	width: 100%;
+	-webkit-box-flex: 1;
+	-webkit-flex: 1;
+	    -ms-flex: 1;
+	        flex: 1;
+	text-align: center;
+	color: #2d3133;
+	font-size: 16px;
+}
+.time-listBox .item-time .date-sure {
+	height: 50px;
+	line-height: 50px;
+	color: #00b5de;
+	font-size: 16px;
+}
+.picker-date {
+	text-align: center;
+	line-height: 60px;
+	color: #000;
+	font-size: 16px;
+}
+.time-listBox .date-cont {
+	width: 100%;
+	height: 50px;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+}
+.time-listBox .date-cont .item {
+	width: 33.3333%;
+	height: 50px;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
+	color: #aaafb3;
+	font-size: 14px;
+}
+

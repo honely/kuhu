@@ -1,0 +1,1 @@
+<template name="9030fd2c"><view class="_view M9030fd2c xcx-temp-contentBox" wx:if="{{is_toast}}"><view class="_view M9030fd2c toast-content"><view class="_view M9030fd2c toast-content-text">{{toast_cont}}</view></view></view></template>

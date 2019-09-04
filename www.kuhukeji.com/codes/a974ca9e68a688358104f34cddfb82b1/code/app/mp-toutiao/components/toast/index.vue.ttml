@@ -1,0 +1,1 @@
+<template name="9030fd2c"><view tt:if="{{ h[ 0 ]._if }}" class="_view xcx-temp-contentBox {{ h[ 0 ].rcl }}"><view class="_view toast-content"><view class="_view toast-content-text">{{ h[ 3 ].t }}</view></view></view></template>

@@ -1,0 +1,2 @@
+<import src="./index.vue.ttml" />
+    <template is="1a239114" data="{{ ...$root['0'], $root }}"/>

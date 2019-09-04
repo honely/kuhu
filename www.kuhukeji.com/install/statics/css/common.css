@@ -1,0 +1,119 @@
+@charset "utf-8";
+/*reset*/
+html {
+    font-size: 20px;
+}
+
+@media only screen and (min-width: 400px) {
+    html {
+        font-size: 21.33333333px !important;
+    }
+}
+
+@media only screen and (min-width: 414px) {
+    html {
+        font-size: 22.08px !important;
+    }
+}
+
+@media only screen and (min-width: 480px) {
+    html {
+        font-size: 25.6px !important;
+    }
+}
+
+html {
+    font-family: "Microsoft YaHei", "Helvetica Neue", "Hiragino Sans GB", "Segoe UI", Tahoma, Arial, STHeiti, sans-serif;
+    _font-family: Tahoma, Arial, Helvetica, STHeiti, sans-serif;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+}
+
+body, h1, h2, h3, h4, h5, h6, p, ul, ol, form {
+    margin: 0;
+}
+
+ul, ol {
+    padding-left: 0;
+    list-style-type: none;
+}
+
+a {
+    cursor: pointer;
+    color: #333;
+    text-decoration: none; /*消除ie10灰色背景*/
+    background-color: transparent; /*消除火狐虚线*/
+    outline: none;
+    transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    -webkit-transition: all 0.2s ease-in-out;
+    -moztransition: all 0.2s ease-in-out;
+}
+
+img {
+    max-width: 100%;
+    cursor: pointer;
+    vertical-align: middle;
+    border: 0 none;
+}
+
+body, button, input, select, textarea {
+    font-size: 12px;
+    /*font-family: "Helvetica Neue", Helvetica, STHeiTi, "Microsoft YaHei", "微软雅黑", SimSun, sans-serif;*/
+    font-family: "Microsoft YaHei", "微软雅黑";
+    color: #333;
+    border:none;
+    outline:0;
+    margin: 0;
+    padding:0;
+}
+
+button, input { /* 让 input 和 button 一样高 */
+    line-height: normal;
+}
+
+button::-moz-focus-inner, input::-moz-focus-inner {
+    padding: 0;
+    border: 0;
+}
+
+button, html input[type="button"], input[type="reset"], input[type="submit"] {
+    -webkit-appearance: none;
+    cursor: pointer;
+}
+
+a, button, input {
+    -webkit-tap-highlight-color: rgba(255, 0, 0, 0);
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: normal;
+}
+
+em {
+    font-style: normal;
+}
+
+input[type="checkbox"], input[type="radio"] {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 0;
+}
+
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+*:before, *:after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}

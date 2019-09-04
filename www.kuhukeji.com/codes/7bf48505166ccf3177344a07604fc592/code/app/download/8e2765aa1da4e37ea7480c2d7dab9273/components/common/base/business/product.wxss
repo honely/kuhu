@@ -1,0 +1,27 @@
+
+.item-product-01 {
+	width: 50%;
+	float: left;
+}
+.item-product-02 {
+	width: 100%;
+	display: inline-block;
+	overflow: hidden;
+}
+.tit {
+	margin-top: 8px;
+	height: 18px;
+	line-height: 18px;
+	width: 100%;
+	overflow: hidden;
+	color: #333333;
+	font-size: 16px;
+	font-weight: 600;
+}
+.desc {
+	font-size: 14px;
+	line-height: 20px;
+	color: rgba(128, 128, 128, 1);
+	margin-top: 5px;
+}
+

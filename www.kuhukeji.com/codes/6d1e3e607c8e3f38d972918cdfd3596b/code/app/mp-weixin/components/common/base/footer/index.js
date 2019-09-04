@@ -1,0 +1,10 @@
+(global["webpackJsonp"]=global["webpackJsonp"]||[]).push([["components/common/base/footer/index"],{"00ed":function(e,t,n){"use strict";var a=function(){var e=this,t=e.$createElement;e._self._c},r=[];n.d(t,"a",function(){return a}),n.d(t,"b",function(){return r})},"0985":function(e,t,n){"use strict";n.r(t);var a=n("00ed"),r=n("37ef");for(var i in r)"default"!==i&&function(e){n.d(t,e,function(){return r[e]})}(i);n("ade4");var u=n("2877"),o=Object(u["a"])(r["default"],a["a"],a["b"],!1,null,null,null);t["default"]=o.exports},"37ef":function(e,t,n){"use strict";n.r(t);var a=n("702f"),r=n.n(a);for(var i in a)"default"!==i&&function(e){n.d(t,e,function(){return a[e]})}(i);t["default"]=r.a},"702f":function(e,t,n){"use strict";(function(e){Object.defineProperty(t,"__esModule",{value:!0}),t.default=void 0;var n={props:{length:{type:Number,default:0},footer:{type:Array,default:function(){return[]}},color:{type:String,default:"#AAAFB3"},bottom:{type:String,default:"100upx;"},tabIndex:{type:Number,default:0}},methods:{onTabClickListner:function(t){console.log("index=>"+t);var n=this.footer[t].link;if(console.log(this.footer[t].link),""!=n){var a=["/pages/index/index","/pages/product/index","/pages/about/index","/pages/plugin/index","/pages/message/index"],r=this.config.getParam(n);if(0==r)return!1;if("wyu_tel"==r.url)return e.makePhoneCall({phoneNumber:r.param.tel}),!0;var i=-1!=n.indexOf("?")?n+"&&app_id="+this.config.app_id:n+"?app_id="+this.config.app_id;a.indexOf(r.url)>=0?e.reLaunch({url:i}):e.navigateTo({url:i})}}}};t.default=n}).call(this,n("543d")["default"])},"8a44":function(e,t,n){},ade4:function(e,t,n){"use strict";var a=n("8a44"),r=n.n(a);r.a}}]);
+;(global["webpackJsonp"] = global["webpackJsonp"] || []).push([
+    'components/common/base/footer/index-create-component',
+    {
+        'components/common/base/footer/index-create-component':(function(module, exports, __webpack_require__){
+            __webpack_require__('543d')['createComponent'](__webpack_require__("0985"))
+        })
+    },
+    [['components/common/base/footer/index-create-component']]
+]);                

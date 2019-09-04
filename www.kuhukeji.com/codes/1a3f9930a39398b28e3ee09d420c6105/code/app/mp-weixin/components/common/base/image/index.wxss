@@ -1,0 +1,12 @@
+
+.assembly-box .img-cont{
+	width:100%;
+	/* height: 100upx; */
+	display: inline-block;
+}
+.assembly-box .img-cont .img {
+	width: 100%;
+	height: 100%;
+	background: #fcfcfc;
+}
+

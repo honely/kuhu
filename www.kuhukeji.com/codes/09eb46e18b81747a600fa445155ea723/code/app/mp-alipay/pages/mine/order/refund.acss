@@ -1,0 +1,36 @@
+
+.refund-box {
+	width: 100%;
+	display: block;
+	padding: 12px 15px;
+}
+.refund-box .refund-cont {
+	width: 100%;
+	border-radius: 8px;
+	background: #fff;
+	display: block;
+	padding: 22px 20px;
+}
+.refund-box .refund-cont .rc-state {
+	width: 100%;
+	color: #65C022;
+	font-size: 20px;
+	margin-bottom: 12px;
+}
+.refund-box .refund-cont .rc-hint {
+	width: 100%;
+	font-size: 16px;
+	color: #333333;
+}
+.btn-back {
+	width: 100%;
+	height: 48px;
+	line-height: 48px;
+	background: #ED3005;
+	border-radius: 4px;
+	color: #fff;
+	font-size: 18px;
+	text-align: center;
+	margin-top: 24px;
+}
+

@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title><?=$siteinfo['sitename'];?>分销商城模版---<?=$siteinfo['title'];?></title>
+    <meta name="Keywords"  content="<?=$siteinfo['sitename'];?>分销商城小程序系统模版、<?=$siteinfo['sitename'];?>分销商城微信小程序模版、<?=$siteinfo['sitename'];?>分销商城支付宝小程序模版、<?=$siteinfo['sitename'];?>分销商城百度小程序" />
+    <meta name="Description" content="<?=$siteinfo['desc'];?>" />
+
+
+    <link type="text/css" rel="stylesheet" href="/static/web/css/common.css"/>
+    <link type="text/css" rel="stylesheet" href="/static/web/css/website.css"/>
+    <link type="text/css" rel="stylesheet" href="/static/web/plugin/swiper/css/swiper.min.css">
+    <script type="text/javascript" src="/static/web/js/jquery.min.js"></script>
+    <link type="text/css" rel="stylesheet" href="/static/web/css/template.css"/>
+
+</head>
+<body>
+<section>
+    <{include file="public/menu"}>
+
+    <!--轮播图片-->
+    <div class="swiper-container">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide slide-01"></div>
+       
+        </div>
+    </div>
+
+    <div class="template-list">
+            <div class="n-wrap">
+                <ul class="tmp-list">
+                    
+                    <li class="rt-tmp">
+                        <div class="type-box">
+                            <span class="type-tit"><?=empty($appname)?'全部模版':$appname;?></span>
+                            <?php if(!empty($cats)){ ?>
+                            <span class="item-type <?php if($cat == 0){ ?>active <?php }?>"><a href="/shop/index/template.html">全部</a></span>
+                            <?php foreach($cats as $val){ ?>
+                            <span class="item-type <?php if($cat == $val['cat_id']){ ?>active <?php }?>"><a href="/shop/index/template/cat/<?=$val['cat_id'];?>.html"><?=$val['cat_name'];?></a></span>
+                              <?php }?>  
+                            <?php  }?>     
+                        </div>
+                        <script type="text/javascript" src="/static/web/js/jquery.qrcode.min.js"></script>
+    
+                        <ul class="tmp-cont">
+                            <?php $i=0; foreach($temps as $val){ $i++;?>
+                                <li class="item-template" >
+                                    <div class="tmp-top">
+                                        <img src="<?=$val['photo'];?>" class="thumb-img">
+                                        <div class="qrcode">
+                                            <div id="qrimg<?=$i;?>" class="qr-img"></div>
+                                            <p class="qr-name">微信扫描二维码预览</p>
+                                            <button class="qr-btn">免费拥有</button>
+                                        </div>
+                                    </div>
+                                    <script>
+                                        jQuery(function(){
+                                            jQuery('#qrimg<?=$i;?>').qrcode({ width: 160,
+                        height: 160,text:"<?=$val['url'];?>"});
+                                        });
+                                    </script>
+                                    <h3 class="tmp-tit"><?=$val['title'];?></h3>
+                                    <p class="tmp-price">免费</p>
+                                </li>
+                               
+                               
+                                <?php }?>
+                        
+                        </ul>
+    
+                        <div style="display: block;margin-top: 10px; width: 100%; text-align: center;">
+                            <?=$page;?>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    
+
+
+    <{include file="public/footer"}>
+
+</section>
+
+
+</body>
+</html>

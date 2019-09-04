@@ -1,0 +1,55 @@
+
+.menu-box {
+	width: 100%;
+	padding: 32px 15px;
+	margin-top: 12px;
+	background: #fff;
+	display: block;
+}
+.menu-box .m-cont {
+	width: 100%;
+	display: block;
+}
+.m-cont .item-menu {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+}
+.m-cont .item-menu .item-menu-cont {
+	-webkit-box-flex: 1;
+	-webkit-flex: 1;
+	    -ms-flex: 1;
+	        flex: 1;
+	height: 86px;
+	background: #f00;
+	position: relative;
+}
+.m-cont .item-menu .m-vline {
+	width: 2px;
+	height: 86px;
+	background: #fff;
+}
+.m-cont .m-hline {
+	width: 100%;
+	height: 2px;
+	background: #fff;
+}
+.item-menu-cont .m-tit {
+	position: absolute;
+	left: 20px;
+	right: 20px;
+	top: 18px;
+	color: #FFFFFF;
+	font-size: 18px;
+}
+.item-menu-cont .m-subtit {
+	position: absolute;
+	left: 20px;
+	right: 20px;
+	bottom: 18px;
+	color: #FFFFFF;
+	font-size: 16px;
+	opacity: 0.6;
+}
+

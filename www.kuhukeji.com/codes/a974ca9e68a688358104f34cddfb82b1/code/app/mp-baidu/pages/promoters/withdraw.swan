@@ -1,0 +1,2 @@
+<import src="./withdraw.vue.swan" />
+    <template is="17723d88" data="{{{ ...$root['0'], $root }}}"/>

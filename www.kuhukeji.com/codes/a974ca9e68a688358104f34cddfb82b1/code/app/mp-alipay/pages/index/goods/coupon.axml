@@ -1,0 +1,2 @@
+<import src="/components/loading/index.vue.axml"/><import src="/components/toast/index.vue.axml"/><import src="/components/business/coupon/index.vue.axml"/><template name="1b1c1600"><view class="_view coupon-box {{ h[ 0 ].rcl }}"><template is="0aa0f218" data="{{ ...$root[ cp + 0 ], $root, _t: _t || '' }}" /><template is="17c66e82" data="{{ ...$root[ cp + 1 ], $root, _t: _t || '' }}" /><template is="9030fd2c" data="{{ ...$root[ cp + 2 ], $root, _t: _t || '' }}" /></view></template>
+<template is="1b1c1600" data="{{ ...$root['0'], $root }}"/>

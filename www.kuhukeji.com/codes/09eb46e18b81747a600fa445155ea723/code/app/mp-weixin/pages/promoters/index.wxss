@@ -1,0 +1,311 @@
+
+.promoters-box {
+	width: 100%;
+	display: block;
+}
+.promoters-box .base-promoters {
+	width: 100%;
+	height: 186px;
+	position: relative;
+}
+.promoters-box .base-promoters .p-info {
+	width: 100%;
+	height: 150px;
+	background: -o-linear-gradient(315deg, rgba(43, 46, 61, 1) 0%, rgba(87, 89, 104, 1) 100%);
+	background: linear-gradient(135deg, rgba(43, 46, 61, 1) 0%, rgba(87, 89, 104, 1) 100%);
+	padding: 24px 15px;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+}
+.p-info .u-lt {
+	width: 64px;
+	height: 64px;
+	position: relative;
+	border-radius: 50%;
+}
+.p-info .u-mid {
+	-webkit-box-flex: 1;
+	-webkit-flex: 1;
+	    -ms-flex: 1;
+	        flex: 1;
+	display: block;
+	margin: 0 15px;
+}
+.p-info .u-mid .name {
+	font-size: 16px;
+	color: #fff;
+	font-weight: bold;
+}
+.p-info .u-mid .grade {
+	width: 100%;
+	height: 20px;
+	line-height: 20px;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	font-size: 14px;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+	margin-top: 4px;
+}
+.p-info .u-mid .grade .g-icon {
+	width: 14px;
+	height: 16px;
+	margin-right: 8px;
+}
+.p-info .u-mid .grade .g-name {
+	font-size: 14px;
+	color: #ffae19;
+}
+.p-info .u-rt {
+	width: 84px;
+	height: 64px;
+	position: relative;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
+	text-align: center;
+}
+.p-info .u-rt .extract-cont {
+	margin-top: 27px;
+	color: #00b5de;
+	font-size: 32rpx;
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 0;
+	text-align: center;
+}
+.p-info .u-rt .extract-cont .e-hint {
+	width: 100%;
+	font-size: 28rpx;
+	color: #797d80;
+	text-align: center;
+}
+.promoters-box .rank-info {
+	width: 92%;
+	height: 66px;
+	margin: 0 4%;
+	position: absolute;
+	bottom: 0;
+	border-radius: 8px;
+	background: #fff;
+	padding: 0 15px;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+}
+.promoters-box .rank-info .r-lt {
+	width: 100%;
+	height: 100%;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+	-webkit-box-flex: 1;
+	-webkit-flex: 1;
+	    -ms-flex: 1;
+	        flex: 1;
+}
+.promoters-box .rank-info .r-lt .r-icon {
+	width: 21px;
+	height: 20px;
+}
+.promoters-box .rank-info .r-lt .r-num {
+	margin: 0 8px;
+	color: #000000;
+	font-size: 16px;
+}
+.promoters-box .rank-info .r-lt .r-arrow {
+	width: 8px;
+	height: 14px;
+}
+.promoters-box .rank-info .r-rt {
+	height: 36px;
+	line-height: 36px;
+	background: -webkit-gradient(linear, left top, right top, from(rgba(255, 174, 25, 1)), to(rgba(255, 128, 0, 1)));
+	background: -o-linear-gradient(left, rgba(255, 174, 25, 1) 0%, rgba(255, 128, 0, 1) 100%);
+	background: linear-gradient(90deg, rgba(255, 174, 25, 1) 0%, rgba(255, 128, 0, 1) 100%);
+	border-radius: 4px;
+	padding: 0 12px;
+	color: #fff;
+	font-size: 14px;
+}
+
+/* 我的战绩 */
+.score-info {
+	width: 92%;
+	height: 221px;
+	background: #fff;
+	margin: 14px 4%;
+	border-radius: 8px;
+	padding: 0 15px;
+	-webkit-box-shadow: 0 4px 2px 0rpx rgba(223, 230, 235, 0.3);
+	        box-shadow: 0 4px 2px 0rpx rgba(223, 230, 235, 0.3);
+}
+.score-info .s-header {
+	width: 100%;
+	height: 50px;
+	border-bottom: 1px #f2f4f5 solid;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+}
+.score-info .s-header .h-tit {
+	height: 20px;
+	-webkit-box-flex: 1;
+	-webkit-flex: 1;
+	    -ms-flex: 1;
+	        flex: 1;
+	color: #43494d;
+	font-size: 18px;
+	font-weight: bold;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+}
+.score-info .s-header .h-tit .icon-award {
+	width: 18px;
+	height: 20px;
+	margin-right: 8px;
+}
+.score-info .s-header .h-detail {
+	height: 50px;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+	font-size: 14px;
+	color: #5a6266;
+}
+.score-info .s-header .h-detail .arrow {
+	width: 8px;
+	height: 14px;
+	margin-left: 8px;
+}
+.score-info .s-cont {
+	width: 100%;
+	height: 98px;
+	border-bottom: 1px #f2f4f5 solid;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+}
+.score-info .s-cont .item-score {
+	width: 100%;
+	-webkit-box-flex: 1;
+	-webkit-flex: 1;
+	    -ms-flex: 1;
+	        flex: 1;
+	display: block;
+	text-align: center;
+}
+.score-info .s-cont .item-score .s-num {
+	color: #000000;
+	font-size: 24px;
+}
+.score-info .s-cont .item-score .s-hint {
+	color: #666666;
+	margin-top: 12px;
+	font-size: 14px;
+}
+.score-info .s-money {
+	width: 100%;
+	height: 71px;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+}
+.score-info .s-money .wd-num {
+	width: 100%;
+	-webkit-box-flex: 1;
+	-webkit-flex: 1;
+	    -ms-flex: 1;
+	        flex: 1;
+	color: #666666;
+	font-size: 14px;
+}
+.score-info .s-money .btn-wd {
+	height: 36px;
+	line-height: 36px;
+	padding: 0 16px;
+	color: #ED3005;
+	font-size: 16px;
+	border: 1px #ED3005 solid;
+	border-radius: 4px;
+}
+.count-cont {
+	width: 92%;
+	height: 100px;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	padding: 24px 0;
+	background: #fff;
+	margin: 0 4%;
+	border-radius: 8px;
+}
+.count-cont .item-count {
+	width: 100%;
+	-webkit-box-flex: 1;
+	-webkit-flex: 1;
+	    -ms-flex: 1;
+	        flex: 1;
+	display: block;
+	border-right: 1px solid #CCCCCC;
+	text-align: center;
+}
+.count-cont .item-count .cc-num {
+	color: #ED3005;
+	font-size: 24px;
+}
+.count-cont .item-count .cc-hint {
+	color: #cccccc;
+	font-size: 14px;
+	margin-top: 3px;
+}
+

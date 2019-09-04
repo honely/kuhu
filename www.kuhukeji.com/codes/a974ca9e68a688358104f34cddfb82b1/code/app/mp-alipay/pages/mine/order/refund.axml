@@ -1,0 +1,2 @@
+<template name="f3d4199e"><view class="_view refund-box {{ h[ 0 ].rcl }}"><view class="_view refund-cont"><view class="_view rc-state"><text class="_text"></text><text class="_text">订单已取消，并成功发起退款</text></view><view class="_view rc-hint">原路退款时，款项会在1-7个工作日内原路</view></view><view class="_view btn-back" data-cid="{{ _c || c }}" data-hid="{{ 8 }}" onTap="_pe">返回订单详情</view></view></template>
+<template is="f3d4199e" data="{{ ...$root['0'], $root }}"/>

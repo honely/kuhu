@@ -1,0 +1,70 @@
+
+.relevant-product {
+	width: 100%;
+	margin-top: 48px;
+}
+.relevant-product .rp-header {
+	width: 92%;
+	margin: 0 4% 16px 4%;
+	border-bottom: 1px solid #E6E6E6;
+}
+.relevant-product .rp-header>text {
+	padding-bottom: 24px;
+	display: inline-block;
+	color: #333333;
+	font-size: 20px;
+	border-bottom: 4px solid #234095;
+}
+.business-detail-box {
+	width: 100%;
+	display: inline-block;
+}
+.business-detail-box .detail-cont {
+	padding: 0 15px;
+}
+.business-detail-box .detail-cont .banner-box {
+	width: 100%;
+	height: 230px;
+	background: #f00;
+	position: relative;
+	margin: 24px 0 8px 0;
+}
+.business-detail-box .detail-cont .banner-box swiper {
+	width: 100%;
+	height: 100%;
+}
+.business-detail-box .detail-cont .banner-box swiper swiper-item image {
+	width: 100%;
+	height: 100%;
+}
+.business-detail-box .detail-cont .banner-box .dot-box {
+	height: 24px;
+	line-height: 24px;
+	border-radius: 12px;
+	padding: 0 12px;
+	position: absolute;
+	right: 8px;
+	top: 16px;
+	background: #000;
+	opacity: 0.5;
+	color: #fff;
+}
+.business-detail-box .detail-cont .bd-img {
+	width: 100%;
+	height: 230px;
+	background: #f00;
+	margin: 24px 0 8px 0;
+}
+.business-detail-box .detail-cont .bd-title {
+	width: 100%;
+	font-size: 24px;
+	color: #333333;
+	margin: 16px 0;
+}
+.business-detail-box .detail-cont .bd-cont {
+	width: 100%;
+	color: #808080;
+	font-size: 16px;
+	line-height: 24px;
+}
+

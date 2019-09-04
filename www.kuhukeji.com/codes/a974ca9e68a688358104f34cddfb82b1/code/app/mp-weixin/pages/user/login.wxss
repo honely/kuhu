@@ -1,0 +1,55 @@
+
+.login-view {
+	width: 92%;
+	height: 50px;
+	margin: 84px 4% 16px 4%;
+	background: #ED3005;
+	position: relative;
+	border-radius: 4px;
+}
+.login-view .btn-login {
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	background: #00000000;
+	border: none;
+	color: #fff;
+	font-size: 16px;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
+}
+.login-view .btn-login:after {
+	border: none;
+}
+.app .register-view {
+	width: 100%;
+	height: 64px;
+	text-align: center;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+	color: #000000;
+	font-size: 16px;
+}
+

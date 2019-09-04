@@ -1,0 +1,113 @@
+#app{
+    width: 100%;
+    background: #fff;
+}
+
+.header{
+    background: #fff;
+    box-shadow: 0px 2px 6px rgba(0,0,0,.07);
+}
+
+.header-nav{
+    width: 1000px;
+    margin: 0 auto;
+    height: 100%;
+}
+
+.logo{
+    height: 40px;
+    margin-top:10px;
+    float: left;
+}
+.logo img{
+    height: 40px;
+}
+.togw{
+    float: right;
+    margin-top: 12px;
+}
+
+.togw a{
+    display: block;
+    padding: 5px  10px;
+    border:1px solid #4d96fc;
+    font-size: 13px;
+    border-radius: 5px;
+    color:#4d96fc;
+    transition: all 0.5s; 
+}
+.togw a:hover{
+    background: #4d96fc;
+    color:#fff;
+}
+.main-box{
+    width: 1000px;
+    margin: 0 auto;
+}
+.install-main{
+    margin-top:20px;
+}
+
+.footer{
+    text-align: center;
+    color:#999999;
+}
+
+.install-main h2{
+    text-align: center;
+    width: 100%;
+    font-size: 20px;
+    color:#333333;
+    font-weight: 600;
+}
+.license-box{
+    margin-top: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    height: 600px;
+    overflow-y: scroll;
+    font-size: 13px;
+}
+.license-box STRONG{
+    line-height: 40px;
+}
+.license-box p{ line-height: 22px;}
+
+.action-list{
+    padding: 20px;
+    text-align: center;
+}
+.checkItem{
+    margin-bottom: 20px;
+}
+.checkItem ul{
+    margin-top: 10px;
+}
+.checkItem li{
+    line-height: 26px;
+    font-size: 14px;
+    width: 100%;
+    padding-left: 50px;
+}
+.checkItem i{
+    float: right;
+}
+
+.install-gx{
+    text-align: center;
+    width: 100%;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 50px;
+}
+
+.install-yes{
+    text-align: center;
+    width: 100%;
+    padding: 50px;
+    font-size: 16px;
+}
+.install-yes a{
+    margin-right: 20px;
+    color:#0089FF;
+}
